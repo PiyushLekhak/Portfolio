@@ -295,32 +295,44 @@ main {
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  border-radius: 10px;
+  background-color: var(--clr-bg-alt);
 }
 
 .project:hover {
   transform: translateY(-7px);
+  background-color: var(--clr-primary-light); /* Light up the background color */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for emphasis */
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  color: var(--clr-primary);
 }
 
 .project__description {
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 
 .project__stack {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 1.2em 0;
+  margin: 1.5em 0;
 }
 
 .project__stack-item {
   margin: 0.5em;
+  padding: 0.3em 1em;
+  border: 1px solid var(--clr-primary);
+  border-radius: 5px;
   font-weight: 500;
   font-size: 0.8rem;
-  color: var(--clr-fg-alt);
+  color: var(--clr-primary);
 }
 
 .project .link--icon {
-  margin-left: 0.5em;
+  margin-top: 1em;
 }
 
 .skills__list {
