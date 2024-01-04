@@ -226,8 +226,18 @@ main {
   margin: 0 auto;
 }
 
-.section {
+#contact {
   margin-top: 5em;
+}
+
+#projects {
+  margin-top: 5em;
+}
+
+.section {
+  padding-top: 10em;
+  padding-bottom: 5em;
+  text-align: center;
 }
 
 .section__title {
