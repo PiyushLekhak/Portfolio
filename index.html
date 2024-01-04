@@ -17,10 +17,13 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Piyush Lekhak</title>
   </head>
+
   <body class="light" id="top">
     <header class="header center">
       <h3>
-        <a href="https://piyushlekhak.github.io/Portfolio/" class="link">Home</a>
+        <a href="https://piyushlekhak.github.io/Portfolio/" class="link"
+          >Home</a
+        >
       </h3>
 
       <nav class="nav center">
@@ -53,34 +56,39 @@
     <main>
       <!-- About -->
       <div class="about center">
-        <h1>Hi, I am <span class="about__name">Piyush Lekhak.</span></h1>
+        <h1 id="animate-text">
+          Hi, I am <span class="about__name">Piyush Lekhak.</span>
+        </h1>
         <h2 class="about__role">A Data Science Enthusiast.</h2>
-        <p class="about__desc">
+        <p id="animate-paragraph" class="about__desc">
           I am passionate about Data Science & looking for an opportunity to
           exploit my current skills and become a prominent Data Scientist.
         </p>
-
-        <div class="about__contact center">
+        <div id="animate-icon" class="about__contact center">
           <a
             href="https://drive.google.com/file/d/1oI-hFnKHoaUop47TKRm36CrHUe2sFZQh/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <span class="btn btn--outline">Resume</span>
           </a>
-
           <a
             href="https://github.com/PiyushLekhak"
-            aria-label="github"
-            class="link link--icon"
+            aria-label="GitHub"
+            class="link link--icon bigger-icon"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <i aria-hidden="true" class="fab fa-github"></i>
+            <i aria-hidden="true" class="fab fa-github fa-lg"></i>
           </a>
-
           <a
             href="https://www.linkedin.com/in/piyush-lekhak/"
-            aria-label="linkedin"
-            class="link link--icon"
+            aria-label="LinkedIn"
+            class="link link--icon bigger-icon"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <i aria-hidden="true" class="fab fa-linkedin"></i>
+            <i aria-hidden="true" class="fab fa-linkedin fa-lg"></i>
           </a>
         </div>
       </div>
@@ -103,11 +111,12 @@
             <a
               href="https://github.com/PiyushLekhak/Movie-recommender-system"
               aria-label="source code"
-              class="link link--icon"
+              class="link link--icon bigger-icon"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <i aria-hidden="true" class="fab fa-github"></i>
+              <i aria-hidden="true" class="fab fa-github fa-lg"></i>
             </a>
-          
           </div>
 
           <div class="project">
@@ -125,17 +134,19 @@
             <a
               href="https://github.com/PiyushLekhak/Web-app---Html-CSS-JS-JAVA"
               aria-label="source code"
-              class="link link--icon"
+              class="link link--icon bigger-icon"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-
+              <i aria-hidden="true" class="fab fa-github fa-lg"></i>
+            </a>
           </div>
 
           <div class="project">
             <h3>Password Manager</h3>
             <p class="project__description">
-              A password manager that stores user's account name and password in encrypted form.
+              A password manager that stores user's account name and password in
+              encrypted form.
             </p>
             <ul class="project__stack">
               <li class="project__stack-item">Python</li>
@@ -144,10 +155,12 @@
             <a
               href="https://github.com/PiyushLekhak/PasswordManager-python"
               aria-label="source code"
-              class="link link--icon"
+              class="link link--icon bigger-icon"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>   
+              <i aria-hidden="true" class="fab fa-github fa-lg"></i>
+            </a>
           </div>
         </div>
       </section>
@@ -156,29 +169,99 @@
       <section class="section skills" id="skills">
         <h2 class="section__title">Skills</h2>
         <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">Python</li>
-          <li class="skills__list-item btn btn--plain">HTML</li>
-          <li class="skills__list-item btn btn--plain">CSS</li>
-          <li class="skills__list-item btn btn--plain">JavaScript</li>
-          <li class="skills__list-item btn btn--plain">Java</li>
-          <li class="skills__list-item btn btn--plain">React</li>
-          <li class="skills__list-item btn btn--plain">Django</li>
-          <li class="skills__list-item btn btn--plain">Git</li>
-          <li class="skills__list-item btn btn--plain">SQL</li>
-          <li class="skills__list-item btn btn--plain">Power BI</li>
-          <li class="skills__list-item btn btn--plain">Figma</li>
+          <li class="skills__list-item btn btn--plain">
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"
+              alt="Python"
+              class="skill-icon"
+            />
+            Python
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
+              alt="Html"
+              class="skill-icon"
+            />
+            Html
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <img
+              src="https://icon-library.com/images/css3-icon/css3-icon-28.jpg"
+              alt="CSS"
+              class="skill-icon"
+            />
+            CSS
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <img
+              src="https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg"
+              alt="JavaScript"
+              class="skill-icon"
+            />
+            JavaScript
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <img
+              src="https://icon-library.com/images/java-icon-images/java-icon-images-11.jpg"
+              alt="Java"
+              class="skill-icon"
+            />
+            Java
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <img
+              src="https://icon-library.com/images/django-icon/django-icon-0.jpg"
+              alt="Django"
+              class="skill-icon"
+            />
+            Django
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <img
+              src="https://icon-library.com/images/power-bi-icon/power-bi-icon-18.jpg"
+              alt="Power BI"
+              class="skill-icon"
+            />
+            Power BI
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <img
+              src="https://icon-library.com/images/sql-icon/sql-icon-8.jpg"
+              alt="SQL"
+              class="skill-icon"
+            />
+            SQL
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <img
+              src="https://icon-library.com/images/excel-document-icon/excel-document-icon-22.jpg"
+              alt=""
+              class="skill-icon"
+            />
+            Excel
+          </li>
         </ul>
       </section>
 
       <!-- Contact -->
       <section class="section contact center" id="contact">
         <h2 class="section__title">Contact</h2>
-        <a href="email///">
-          <span class="btn btn--outline">Email me</span>
-        </a>
+        <div class="about__contact center">
+          <a
+            href="https://github.com/PiyushLekhak"
+            aria-label="GitHub"
+            class="link link--icon bigger-icon"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i aria-hidden="true" class="fab fa-github fa-lg"></i>
+            Contact Me
+          </a>
+        </div>
       </section>
     </main>
-    
+
     <div class="scroll-container">
       <div class="scroll-top">
         <a aria-label="Scroll up" href="#top">
