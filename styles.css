@@ -301,8 +301,8 @@ main {
 
 .project:hover {
   transform: translateY(-7px);
-  background-color: var(--clr-primary-light); /* Light up the background color */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for emphasis */
+  background-color: var(--clr-primary-light);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .project h3 {
@@ -335,17 +335,23 @@ main {
   margin-top: 1em;
 }
 
+.skills__list-item {
+  margin: 1em;
+  padding: 1em;
+  border: 2px solid var(--clr-primary);
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--clr-primary);
+}
+
 .skills__list {
-  max-width: 450px;
-  width: 95%;
+  max-width: 750px;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.skills__list-item {
-  margin: 0.5em;
 }
 
 .contact {
@@ -422,4 +428,69 @@ main {
   .scroll-container {
     display: none;
   }
+}
+
+.skill-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.bigger-icon {
+  font-size: 1.5rem;
+}
+
+.about__contact .btn--outline {
+  text-transform: uppercase;
+}
+
+#animate-text,
+#animate-paragraph,
+#animate-icon {
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#animate-text,
+.about__role,
+#animate-paragraph,
+#animate-icon {
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#animate-text {
+  animation: fadeInUp 1s ease-out 0.5s forwards;
+}
+
+.about__role {
+  animation: fadeInUp 1s ease-out 1s forwards;
+}
+
+#animate-paragraph {
+  animation: fadeInUp 1s ease-out 1.5s forwards;
+}
+
+#animate-icon {
+  animation: fadeInUp 1s ease-out 2s forwards;
 }
