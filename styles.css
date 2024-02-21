@@ -506,6 +506,6 @@ main {
 }
 
 .Iframe{
-height: 500px;
-border-radius: 5px;
-}
+  height: 350px;
+  border-radius: 10px;
+  }
