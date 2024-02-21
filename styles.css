@@ -504,3 +504,8 @@ main {
 #animate-icon {
   animation: fadeInUp 1s ease-out 2s forwards;
 }
+
+.Iframe{
+height: 500px;
+border-radius: 5px;
+}
